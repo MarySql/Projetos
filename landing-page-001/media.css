@@ -20,6 +20,7 @@
     img {
         margin-top: 50px;
         max-width: 400px;
+        box-align: center;
     }
 
     ul {
