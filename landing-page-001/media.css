@@ -7,6 +7,7 @@
     main {
         flex-direction: column;
     }
+    nav { flex-direction: column;}
 
     form {
         margin: 0 auto;
@@ -19,8 +20,11 @@
 
     img {
         margin-top: 50px;
-        max-width: 400px;
-        box-align: center;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     ul {
