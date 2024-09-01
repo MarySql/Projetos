@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="images/training.svg" alt="">
+        </section>
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">
+                    Calculadora de IMC
+                </h1>
+                <div class="input-box">
+                    <label for="weight">
+                        Peso em Kg
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                        <input type="number" id="weight" required>
+                        <span>
+                            Kg
+                        </span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="height">
+                        Altura em Metros
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler-vertical"></i>
+                        <input type="text" id="height" required>
+                        <span>
+                            M
+                        </span>
+                    </div>
+                </div>
+                <button id="calculate">Calcular</button>
+            </form>
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>Seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span>77</span>
+                    </div>
+                </div>
+                <div id="more-info">
+                    <a href="https://brasilescola.uol.com.br/educacao-fisica/Indice-massa-corporal-imc.htm">Mais informações sobre o IMC
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>Criado por Maryane Soares para fins acadêmicos</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
